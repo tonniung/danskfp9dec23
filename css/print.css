@@ -1,0 +1,344 @@
+/* @media print { */
+   
+#save,
+.wrapper {
+    display: none;
+}
+
+#builder {
+    display: block;
+    font-size: 13px!important;
+    display: block;
+    width: auto;
+    max-width:800px;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: visible;
+}
+
+#builder > table > td {
+   vertical-align: top;
+   padding: 4px 10px;
+   border-bottom: 1px solid #cccccc;
+}
+
+html {
+    background: none!important;
+}
+
+body {
+    overflow: visible!important;
+    background: none!important;
+}
+
+h2 {
+   margin: 0;
+}
+
+#builder .space {
+   border-bottom: 0;
+}
+
+.space:before {
+   content: "";
+   height: 20px;
+   margin-bottom: 20px;
+   border-bottom: 2px solid #939393;
+   display: block;
+   width: 100%;
+}
+
+input, 
+textarea,
+select {
+   display: none;
+}
+
+.input-answer, 
+.input-find-replace {
+   display: inline-block;
+}
+
+.input-answer-sub {
+   width:100%;
+   text-align: center;
+}
+
+.hidden {
+   border-bottom: 1px solid #000000;
+   /* padding: 2px 12px; */
+   display: inline-block;
+   /* margin: 0 6px; */
+   font-weight: bold;
+   min-height: 20px;
+   max-width: 700px;
+   word-break: break-word;
+   min-width: 20px;
+}
+
+.hidden.textarea {
+   border: 0;
+   display: inline;
+}
+
+.input-find-replace .hidden {
+   line-height: 21px;
+   position: absolute;
+   top: -25px;
+   left: 0;
+   margin: 0;
+   max-width: 100%;
+   width: 100%!important;
+   text-align: center;
+   font-weight: bold;
+   word-break: keep-all;
+   white-space: pre;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.input-find-replace {
+   display: inline-block;
+   margin-top: 21px;
+   position: relative;
+}
+.input-find-replace .hidden:empty {
+   display: none;
+}
+.input-find-replace .hidden:not(:empty) + .input-find-replace-text {
+   line-height: 21px;
+   text-decoration: line-through;
+}
+.input-find-replace.check input {
+    display: none;
+}
+.underline-word.active span {
+   text-decoration: none;
+}
+[type="checkbox"]  + label,
+[type="checkbox"]  + label:before,
+[type="checkbox"]  + label:after,
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+   display: none;
+}
+
+
+#pdfImage7{
+   display: block;
+}
+
+#screenImage7{
+   display: none;
+}
+
+#pdfImage9{
+   display: block;
+}
+
+#screenImage9{
+   display: none;
+}
+
+#pdfImage12{
+   display: block;
+}
+
+#screenImage12{
+   display: none;
+}
+
+#pdfImage13{
+   display: block;
+}
+
+#screenImage13{
+   display: none;
+}
+
+#pdfImage17{
+   display: block;
+}
+
+#screenImage17{
+   display: none;
+}
+
+
+
+.fysikkemi-input {
+   width: 90%;
+   display: flex;
+   justify-content: space-around;
+   margin-top: -3.5%;
+   padding-left: 5%;
+}
+
+.fysikkemi-input__container {
+   width: 30%;
+   display: flex;
+   column-gap: 20px;
+   align-items: center;
+}
+
+.fysikkemi-input__container p {
+   display: block;
+}
+
+.fysikkemi-input__input + span {
+   text-align: center;
+}
+
+.fysikkemi-input-opg9 {
+   width: 90%; 
+   display: flex;
+   justify-content: space-around;
+   padding-left: 5%;
+   column-gap: 14%;
+}
+
+.fysikkemi-input-opg9 input {
+   width: 100%;
+}
+
+.fysikkemi-input-opg9 input + span {
+   text-align: center;
+}
+
+.fysikkemi-input-opg9 input.fysikkemi-input__input-1opg9 + span,
+.fysikkemi-input-opg9 input.fysikkemi-input__input-2opg9 + span,
+.fysikkemi-input-opg9 input.fysikkemi-input__input-3opg9 + span
+{
+   position: unset;
+}
+
+.fysikkemi-input-opg12 {
+   width: 90%; 
+   display: flex;
+   justify-content: space-around;
+   padding-left: 5%;
+   column-gap: 14%;
+}
+
+.fysikkemi-input-opg12 input {
+   width: 100%;
+}
+
+.fysikkemi-input-opg12 input + span {
+   text-align: center;
+}
+
+.fysikkemi-input-opg12 input.fysikkemi-input__input-1opg12 + span,
+.fysikkemi-input-opg12 input.fysikkemi-input__input-2opg12 + span,
+.fysikkemi-input-opg12 input.fysikkemi-input__input-3opg12 + span {
+   position: unset;
+}
+
+.fysikkemi-input-opg13 {
+   width: 90%; 
+   display: flex;
+   justify-content: space-around;
+   padding-left: 5%;
+   column-gap: 11%;
+}
+
+.fysikkemi-input-opg13 input {
+   width: 100%;
+}
+
+.fysikkemi-input-opg13 input + span {
+   text-align: center;
+}
+
+.fysikkemi-input-opg13 input.fysikkemi-input__input-1opg13 + span,
+.fysikkemi-input-opg13 input.fysikkemi-input__input-2opg13 + span,
+.fysikkemi-input-opg13 input.fysikkemi-input__input-3opg13 + span,
+.fysikkemi-input-opg13 input.fysikkemi-input__input-4opg13 + span {
+   position: unset;
+}
+
+.fysikkemi-input-opg17 {
+   width: 90%; 
+   display: flex;
+   justify-content: space-around;
+   padding-left: 5%;
+   column-gap: 14%;
+}
+
+.fysikkemi-input-opg17 input {
+   width: 100%;
+}
+
+.fysikkemi-input-opg17 input + span {
+   text-align: center;
+}
+
+.fysikkemi-input-opg17 input.fysikkemi-input__input-1opg17 + span,
+.fysikkemi-input-opg17 input.fysikkemi-input__input-2opg17 + span,
+.fysikkemi-input-opg17 input.fysikkemi-input__input-3opg17 + span {
+   position: unset;
+}
+
+.equation-list-toolbar,
+.equation-list-item-delete {
+   display: none;
+}
+.equation-list-item {
+   width: 100%;
+}
+.equation-list {
+   width: 600px!important;
+}
+
+.header-title {
+   position: absolute;
+   top: 1px;
+   left: 2px;
+   font-size: 12px;
+}
+
+.data-print-size-300 {
+   width: 300px;
+}
+
+.mq-editable-field {
+   border: none!important;
+   border-bottom: 1px solid #000000!important;
+}
+
+[data-rich],
+.hidden.textarea {
+   height: auto!important;
+   min-height: 20px;
+}
+
+.hidden.textarea {
+   box-shadow: 0 0 0px 1px rgba(0,0,0,0.5);
+   padding: 6px;
+   /* display: flex; */
+   display: block;
+   align-items: center;
+}
+
+[data-replace] input {
+   display: none;
+}
+
+[data-replace] {
+   width: auto;
+   min-width: 20px;
+}
+
+[data-replace] div {
+   min-width: 20px;
+   border: 0;
+   border-bottom: 1px solid #000000;
+   font-weight: bold;
+   width: auto;
+}
+
+.numText {
+   display: none;
+}

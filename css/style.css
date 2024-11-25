@@ -1,0 +1,1058 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url("../font/BebasNeue-Regular.ttf")
+}
+
+html,
+body {
+
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    background-image: url(../images/opgaveStart.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    position: relative;
+    width: 770px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Cabin', sans-serif;
+}
+
+.top {
+    display: table-cell;
+    width: 800px;
+    margin-bottom: -10px;
+    background: white;
+    border: 2px ridge lightgray;
+    border: none;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+#uvmLogo {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+}
+
+.main {
+    width: 770px;
+    background-color: white;
+    height: 100%;
+    display: table;
+    border: 2px ridge lightgray;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+h1 {
+    display: block;
+    font-size: 1.6em;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.2em;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.1em;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    font-size: 1.0em;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-weight: bold;
+}
+
+#content {
+    display: table-cell;
+    margin-left: 205px;
+    height: 100%;
+    max-width: auto;
+    vertical-align: top;
+    position: relative;
+    /* overflow-y: scroll;
+    max-height: 100px; */
+}
+
+.content-text {
+    color: #000;
+    font-family: Arial;
+    margin-left: 100px;
+}
+
+.headline {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 65px;
+}
+
+#ordning {
+    margin-bottom: 26px;
+    /* display: inline-block;
+    border-bottom: 2px solid #000; */
+}
+
+#delprove {
+    margin-bottom: 26px;
+    font-size: 2.5rem;
+}
+
+#bodytext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#dateofexam {
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+#bottom {
+    position: relative;
+    padding-top: 8px;
+    width: 770px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+.bottomText {
+    float: left;
+    padding: 0 45px 0 45px;
+}
+
+.bottomLine {
+    float: left;
+}
+
+.breadcrumb {
+    list-style: none;
+    line-height: normal;
+    margin-left: -9px;
+    margin-bottom: 5px;
+
+}
+
+/* Almindelige links i indhold */
+
+a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+
+a:visited {
+    color: #990099;
+}
+
+a:hover {
+    color: #FF0000
+}
+
+#taskNumber {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    /* width: 205px; */
+    color: #333333;
+    /* margin-top: 100px; */
+    /* text-align: center; */
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    line-height: 10px;
+    height: 20px;
+    padding-top: 150px;
+    margin-left: 11.2%;
+    margin-right: 5%;
+}
+
+#menu {
+    /*position:relative;*/
+    overflow: hidden;
+    z-index: 100;
+    margin-top: 15%;
+    padding-top: 15%;
+    line-height: 0px;
+    min-width: 204px;
+    max-width: 204px;
+
+}
+
+.sub-title {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 25px;
+    /* font-weight: bold; */
+    margin-top: 40px;
+    font-family: BebasNeue, Arial Narrow, Arial;
+}
+
+.titleColor {
+    font-size: 90px;
+    /* letter-spacing: .3rem; */
+    font-family: BebasNeue, Arial Narrow, Arial;
+    text-transform: uppercase;
+    margin-left: 100px;
+    line-height: 88px;
+    margin-top: 54px;
+    margin-bottom: 15px;
+    /* font-weight: bold; */
+}
+
+#school-title {
+    font-size: 6rem;
+}
+
+#exam-title {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+#menu .rootLinkActive,
+#menu .rootMenu {
+    display: block;
+    height: auto;
+    color: #333;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 0 8% 13px;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+#menu .rootLinkActive,
+#menu .rootMenu:hover {
+    /* background: #1c5fa3; */
+}
+
+#menu .subLinkActive,
+#menu .subMenu {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    align-items: center;
+    border: 1px solid #fff;
+    margin: 0 12% 13px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 14px;
+    /* color: #1c5fa3; */
+}
+
+#menu .subLinkActive,
+#menu .subMenu:hover {
+    /* background: #FFDA00; */
+}
+
+#menu .subMenu a,
+#menu .subLinkActive a,
+#menu .subLinkActive a:visited
+
+/*, #menu .subMenu a:visited */
+    {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 15px;
+    font-size: 11px;
+}
+
+/*#menu .subMenu a:visited {
+    display: block;
+	color: #FFDA00 !important;
+	text-decoration: none;
+    padding:12px 15px;
+    font-size: 11px;
+}*/
+#menu .subMenuVisited a:visited {
+    color: #FFDA00;
+}
+
+
+#menu .rootMenu a,
+#menu .rootMenu a:visited {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.2em;
+    padding: 12px 15px;
+
+}
+
+#menu .rootLinkActive a,
+#menu .rootLinkActive a:visited {
+
+    color: #FFDA00 !important;
+
+
+}
+
+
+#menu .rootMenuMellemrum {
+    line-height: 10px;
+}
+
+#menu .rootMenu a:hover,
+#menu .rootLinkActive a:hover {
+    /* color: #FFFFFF;
+    background:rgba(128, 150, 200, 1);
+    -moz-border-radius: 7px;
+    border-radius: 7px; */
+}
+
+#menu .subMenu a:hover,
+#menu .subLinkActive a:hover {
+    /* color: #FFFFFF;
+    background:rgba(128, 150, 200, 1); */
+}
+
+#menu .subLinkActive a,
+#menu .subLinkActive a:visited,
+#menu .rootLinkActive a,
+#menu .rootLinkActive a:visited {
+    /* color: #FFFFFF; */
+}
+
+.PAGE {
+    font-size: 0.5em;
+    height: auto;
+    line-height: 1.5em;
+    overflow: hidden;
+    /*padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3.55em;*/
+    padding: 3.55em 26px 60px 25px;
+    /* position: relative; */
+    width: 955px;
+}
+
+#bottomMenu .subMenu {
+    position: absolute;
+    top: 5px;
+}
+
+#bottomMenu .subMenu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 30px;
+    border-left: 3px solid white;
+    opacity: 0.9;
+
+}
+
+#bottomMenu .first a {
+    border: 0px;
+    padding-left: 20px;
+}
+
+#bottomMenu img {
+
+    margin-right: 6px;
+}
+
+#bottomMenu .subLinkActive a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#bottomMenu .subMenu a:hover {
+    color: black;
+}
+
+.videoFremviser {
+    position: relative;
+    width: 320px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.videoTitle {
+    position: absolute;
+    top: 0px;
+    z-index: 100000;
+    height: 25px;
+    width: 100%;
+    font-size: 0.5em;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.video {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+    background: #00d9ff;
+}
+
+.audioFremviser {
+    position: relative;
+    width: 560px;
+    overflow: hidden;
+}
+
+.audio {
+    position: absolute;
+    width: 100%;
+}
+
+.audioImage {
+    position: absolute;
+    top: 0px;
+}
+
+audio {
+    width: 760px;
+}
+
+.audioTitle {
+    position: absolute;
+    top: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 0.47em;
+}
+
+#blanketMovie {
+    background-color: #111;
+    opacity: 1;
+    *background: none;
+    position: fixed;
+    z-index: 9013;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#popUpDivMovie {
+    position: fixed;
+    width: 50%;
+    height: auto;
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 8%;
+    margin: 0 auto;
+    z-index: 9014;
+    border: 20px solid #262626;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#closeDivLayerMovie {
+    position: absolute;
+    top: -32px;
+    right: -37px;
+    width: 30px;
+    height: 25px;
+    z-index: 9099;
+    background-image: url(../images/close.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#closeDivLayer {
+    position: absolute;
+    bottom: -40px;
+    right: 4px;
+    width: 30px;
+    height: 30px;
+    z-index: 9099;
+    background-image: url(../images/close.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#blanketImage {
+    background-color: #111;
+    opacity: 1;
+    *background: none;
+    position: fixed;
+    z-index: 9013;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#popUpDivImage {
+    position: fixed;
+    width: 50%;
+    height: auto;
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 8%;
+    margin: 0 auto;
+    z-index: 9014;
+    border: 20px solid #262626;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#closeDivLayerImage {
+    position: absolute;
+    top: -32px;
+    right: -37px;
+    width: 30px;
+    height: 25px;
+    z-index: 9099;
+    background-image: url(../images/close.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.popdiv {
+    display: none;
+}
+
+.popuplink {
+    cursor: pointer;
+}
+
+#popUpDiv {
+    position: fixed;
+    max-width: 760px;
+    max-height: 75%;
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 8%;
+    margin: 0 auto;
+    z-index: 9002;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 50px solid white;
+    padding: 10px;
+    /*border-radius: 10px;*/
+}
+
+#popUpDiv img {
+    padding: -8px;
+
+}
+
+#blanket {
+    background-color: #111;
+    opacity: 0.95;
+    *background: none;
+    position: fixed;
+    z-index: 9001;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#divContainer {
+    height: 99.5%;
+    width: 100%;
+    overflow-y: auto;
+    float: left;
+}
+
+.popdivTitle {
+    display: none;
+}
+
+#divTitle {
+    position: absolute;
+    /* display: none; */
+    bottom: -30px;
+    left: 0%;
+    z-index: 9099;
+    color: black;
+    padding-top: 13px;
+    color: gray;
+    /* height: 100%; */
+}
+
+.svg {
+    position: relative;
+}
+
+.svg canvas {
+    width: 100%;
+    display: none;
+    visibility: hidden;
+}
+
+.svg svg {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .svg canvas {
+        display: block;
+    }
+
+    .svg svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.combinedTables:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.combinedTables table {
+    float: left;
+}
+
+.bluebox {
+    width: 100%;
+    height: 30px;
+    background-color: #7eb0d3;
+}
+
+.checkboxText {
+    display: flex;
+    align-items: baseline;
+}
+
+.numText {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.numText p {
+    background-color: #7eb0d3;
+    padding: 10px 21px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* OPGAVE 7 - Sortering af metaller */
+
+#pdfImage7 {
+    display: none;
+}
+
+#screenImage7 {
+    display: block;
+}
+
+#pdfImage9 {
+    display: none;
+}
+
+#screenImage9 {
+    display: block;
+}
+
+#pdfImage12 {
+    display: none;
+}
+
+#screenImage12 {
+    display: block;
+}
+
+#pdfImage13 {
+    display: none;
+}
+
+#screenImage13 {
+    display: block;
+}
+
+#pdfImage17 {
+    display: none;
+}
+
+#screenImage17 {
+    display: block;
+}
+
+
+
+.fysikkemi-input {
+    width: 78%;
+    display: flex;
+    margin-top: -11%;
+    column-gap: 14%;
+    justify-content: space-around;
+}
+
+.fysikkemi-input__container {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+}
+
+.fysikkemi-input__container p {
+    display: none;
+}
+
+.fysikkemi-input input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+/* OPGAVE 9 - Et kraft-varme-værk */
+.fysikkemi-input-opg9 {
+    width: 100%;
+    display: block;
+}
+
+.fysikkemi-input-opg9 input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    text-align: center;
+    width: 28%;
+}
+
+.fysikkemi-input-opg9 input.fysikkemi-input__input-1opg9 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 7%;
+    left: 21%;
+}
+
+.fysikkemi-input-opg9 input.fysikkemi-input__input-2opg9 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 44%;
+    right: 14%;
+}
+
+.fysikkemi-input-opg9 input.fysikkemi-input__input-3opg9 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    bottom: 4%;
+    left: 26%;
+}
+
+/* OPGAVE 12 - Robotplæneklipper */
+.fysikkemi-input-opg12 {
+    width: 100%;
+    display: block;
+}
+
+.fysikkemi-input-opg12 input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    text-align: center;
+    width: 17.5%;
+}
+
+.fysikkemi-input-opg12 input.fysikkemi-input__input-1opg12 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 28%;
+    left: 32.5%;
+}
+
+.fysikkemi-input-opg12 input.fysikkemi-input__input-2opg12 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 42%;
+    left: 19.2%;
+}
+
+.fysikkemi-input-opg12 input.fysikkemi-input__input-3opg12 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    bottom: 24%;
+    left: 19%;
+}
+
+/* OPGAVE 13 - Argon */
+.fysikkemi-input-opg13 {
+    width: 100%;
+    display: block;
+}
+
+.fysikkemi-input-opg13 input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    text-align: center;
+    width: 26%;
+    padding: 1.7% 0.7%;
+}
+
+.fysikkemi-input-opg13 input.fysikkemi-input__input-1opg13 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 10%;
+    left: 1.9%;
+}
+
+.fysikkemi-input-opg13 input.fysikkemi-input__input-2opg13 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 15.5%;
+    left: 38.5%;
+}
+
+.fysikkemi-input-opg13 input.fysikkemi-input__input-3opg13 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    bottom: 33.5%;
+    left: 2%;
+}
+
+.fysikkemi-input-opg13 input.fysikkemi-input__input-4opg13 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    bottom: 11.2%;
+    right: 11.7%;
+}
+
+/* OPGAVE 17 - Elbiler */
+.fysikkemi-input-opg17 {
+    width: 100%;
+    display: block;
+}
+
+.fysikkemi-input-opg17 input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    text-align: center;
+    width: 19%;
+    padding: 30px 7px;
+}
+
+.fysikkemi-input-opg17 input.fysikkemi-input__input-1opg17 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 23%;
+    left: 1.5%;
+}
+
+.fysikkemi-input-opg17 input.fysikkemi-input__input-2opg17 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+}
+
+.fysikkemi-input-opg17 input.fysikkemi-input__input-3opg17 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    position: absolute;
+    top: 23%;
+    left: 48%;
+}
+
+.td-place {
+    padding-left: 10px;
+    text-align: center;
+}
+
+.textBehindImage {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    color: white;
+    /*transition: opacity 0.5s;*/
+}
+
+//i want thead  
+.textBehindImage__topLeft {
+    position: absolute;
+    top: 14%;
+    left: 13%;
+    opacity: 0;
+}
+
+.textBehindImage__topRight {
+    position: absolute;
+    top: 14%;
+    right: 14%;
+    opacity: 0;
+}
+
+.textBehindImage__bottomLeft {
+    position: absolute;
+    bottom: 15%;
+    left: 12%;
+    opacity: 0;
+}
+
+.textBehindImage__bottomRight {
+    position: absolute;
+    bottom: 16%;
+    right: 12%;
+    opacity: 0;
+}
+
+.textBehindImage__middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+
+.textBehindImage__middleLeft {
+    position: absolute;
+    top: 38%;
+    left: 14%;
+    opacity: 0;
+}
+
+.textBehindImage__middleTop {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    opacity: 0;
+}
+
+.textBehindImage__middleBot {
+    position: absolute;
+    top: 60%;
+    right: 47%;
+    opacity: 0;
+}
+
+.textBehindImage__middleRight {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    opacity: 0;
+}
+
+img.image__citat {
+    white-space: pre;
+}
